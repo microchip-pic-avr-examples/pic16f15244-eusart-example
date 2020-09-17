@@ -47,8 +47,10 @@
             "EUSART"
         ],
         "keywords": [
-            "MCC",
-            "EUSART"
+            "Core Independent",
+            "Display",
+			"Serial Communications",
+			"Sensors"
         ],
 		"additionalData": {
 			"longDescription": {
