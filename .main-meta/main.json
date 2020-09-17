@@ -7,7 +7,7 @@
         "version": "1.0.0",
         "displayName": "Transmit \"Hello World!\" to a Terminal Program using EUSART with PIC16F15244",
         "projectName": "pic16f15244-eusart-example",
-        "shortDescription": "The 'pic16f15244-eusart-example' code example uses the PIC16F15244 Curiosity Nano Development board to demonstrate how to transmit "Hello World!" to a PC terminal application using the EUSART module.",
+        "shortDescription": "The 'pic16f15244-eusart-example' code example uses the PIC16F15244 Curiosity Nano Development board to demonstrate how to transmit \"Hello World!\" to a PC terminal application using the EUSART module.",
         "ide": {
             "name": "MPLABX",
             "semverRange": ">=5.40.0"
