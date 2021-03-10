@@ -1,26 +1,21 @@
 /**
-  Generated Pin Manager File
+  Generated Pins File
 
   Company:
     Microchip Technology Inc.
 
   File Name:
-    pin_manager.c
+    pins.c
 
   Summary:
-    This is the Pin Manager file generated using PIC10 / PIC12 / PIC16 / PIC18 MCUs
+    This is generated driver implementation for pins. 
 
   Description:
-    This header file provides implementations for pin APIs for all pins selected in the GUI.
-    Generation Information :
-        Product Revision  :  PIC10 / PIC12 / PIC16 / PIC18 MCUs - 1.81.0
-        Device            :  PIC16F15244
-        Driver Version    :  2.11
-    The generated drivers are tested against the following:
-        Compiler          :  XC8 2.20
-        MPLAB             :  MPLAB X 5.40
+    This file provides implementations for pin APIs for all pins selected in the GUI.
 
-    Copyright (c) 2013 - 2015 released Microchip Technology Inc.  All rights reserved.
+  Generation Information:
+    Driver Version:  3.0.0
+
 */
 
 /*
@@ -46,47 +41,81 @@
     SOFTWARE.
 */
 
-#include "pin_manager.h"
+#include "../pins.h"
+
 
 void PIN_MANAGER_Initialize(void)
 {
-    // LATx registers
-    LATA = 0x00;
-    LATB = 0x00;
-    LATC = 0x00;
+   /**
+    LATx registers
+    */
+    LATA = 0x0;
+    LATB = 0x0;
+    LATC = 0x0;
 
-    // TRISx registers
+    /**
+    TRISx registers
+    */
     TRISA = 0x3F;
-    TRISB = 0x70;
+    TRISB = 0xF0;
     TRISC = 0xFE;
 
-    // ANSELx registers
-    ANSELC = 0xFE;
-    ANSELB = 0xF0;
-    ANSELA = 0x37;
+    /**
+    ANSELx registers
+    */
+    ANSELA = 0x0;
+    ANSELB = 0x0;
+    ANSELC = 0x0;
 
-    // WPUx registers
-    WPUB = 0x00;
-    WPUA = 0x00;
-    WPUC = 0x00;
+    /**
+    WPUx registers
+    */
+    WPUA = 0x0;
+    WPUB = 0x0;
+    WPUC = 0x4;
 
-    // ODx registers
-    ODCONA = 0x00;
-    ODCONB = 0x00;
-    ODCONC = 0x00;
 
-    // SLRCONx registers
+    /**
+    ODx registers
+    */
+   
+    ODCONA = 0x0;
+    ODCONB = 0x0;
+    ODCONC = 0x0;
+    /**
+    SLRCONx registers
+    */
     SLRCONA = 0x37;
     SLRCONB = 0xF0;
     SLRCONC = 0xFF;
-
-    // INLVLx registers
+    /**
+    INLVLx registers
+    */
     INLVLA = 0x3F;
     INLVLB = 0xF0;
     INLVLC = 0xFF;
-    
-	// PPS registers
-    RC0PPS = 0x05;                                                              // RC0->EUSART1:TX1;    
+
+    /**
+    PPS registers
+    */
+    RC0PPS = 0x05;  //RC0->EUSART1:TX1;
+
+   /**
+    IOCx registers 
+    */
+    IOCAP = 0x0;
+    IOCAN = 0x0;
+    IOCAF = 0x0;
+    IOCBP = 0x0;
+    IOCBN = 0x0;
+    IOCBF = 0x0;
+    IOCCP = 0x0;
+    IOCCN = 0x4;
+    IOCCF = 0x0;
+}
+  
+void PIN_MANAGER_IOC(void)
+{
 }
 
 /**

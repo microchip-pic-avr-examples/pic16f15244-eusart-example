@@ -20,6 +20,7 @@
         Compiler          :  XC8 2.20
         MPLAB             :  MPLAB X 5.40
 */
+#include "mcc_generated_files/system/system.h"
 
 /*
     (c) 2018 Microchip Technology Inc. and its subsidiaries. 
@@ -44,9 +45,7 @@
     SOFTWARE.
 */
 
-#include "mcc_generated_files/mcc.h"
-
-void main(void)
+int main(void)
 {
     SYSTEM_Initialize();                                                        // Initialize the device
 
