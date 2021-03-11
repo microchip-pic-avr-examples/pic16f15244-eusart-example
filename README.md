@@ -77,7 +77,7 @@ The EUSART module is configured to use the `printf()` function call that it buil
 
 
 ## Summary
-The 'pic16f15244-delay-led-blink' code example uses the PIC16F15244 Curiosity Nano Development board to demonstrate how to transmit "Hello World!" to a PC terminal application using the EUSART module. Once programmed, the EUSART will transmit the string 'Hello World!' to a PC terminal program.
+The 'pic16f15244-eusart-example' code example uses the PIC16F15244 Curiosity Nano Development board to demonstrate how to transmit "Hello World!" to a PC terminal application using the EUSART module. Once programmed, the EUSART will transmit the string 'Hello World!' to a PC terminal program.
 
 ###### Figure 8: Hello WOrld!
 ![Hello World!](images/HelloWorld.png)
