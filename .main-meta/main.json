@@ -3,7 +3,7 @@
     "category": "com.microchip.ide.project",
     "content": {
         "metaDataVersion": "1.1.0",
-        "name": "com.microchip.mcu8.mplabx.project.pic16f15244-eusart-example_mcc",
+        "name": "com.microchip.mcu8.mplabx.project.pic16f15244-eusart-example",
         "version": "2.0.0",
         "displayName": "Transmit \"Hello World!\" to a Terminal Program using EUSART with PIC16F15244",
         "projectName": "pic16f15244-eusart-example",
