@@ -12,10 +12,10 @@ The 'pic16f15244-eusart-example' code example uses the PIC16F15244 Curiosity Nan
 - [PIC16F15244 Product Page](https://www.microchip.com/wwwproducts/en/PIC16F15244)
 
 ## Software Used
-- MPLAB® X IDE 5.45 or newer [(microchip.com/mplab/mplab-x-ide)](http://www.microchip.com/mplab/mplab-x-ide)
-- MPLAB® XC8 2.31 or a newer compiler [(microchip.com/mplab/compilers)](http://www.microchip.com/mplab/compilers)
-- MPLAB® Code Configurator (MCC) 4.1.0 or newer [(microchip.com/mplab/mplab-code-configurator)](https://www.microchip.com/mplab/mplab-code-configurator)
-- Microchip PIC16F1xxxx Series Device Support (1.5.133) or newer [(packs.download.microchip.com/)](https://packs.download.microchip.com/)
+- MPLAB® X IDE 6.05 or newer [(microchip.com/mplab/mplab-x-ide)](http://www.microchip.com/mplab/mplab-x-ide)
+- MPLAB® XC8 2.41 or a newer compiler [(microchip.com/mplab/compilers)](http://www.microchip.com/mplab/compilers)
+- MPLAB® Code Configurator (MCC) 5.3.7 or newer [(microchip.com/mplab/mplab-code-configurator)](https://www.microchip.com/mplab/mplab-code-configurator)
+- Microchip PIC16F1xxxx Series Device Support (1.18.352) or newer [(packs.download.microchip.com/)](https://packs.download.microchip.com/)
 
 ## Hardware Used
 - PIC16F15244 Curiosity Nano [(EV09Z19A)](https://www.microchip.com/Developmenttools/ProductDetails/EV09Z19A)
@@ -23,8 +23,8 @@ The 'pic16f15244-eusart-example' code example uses the PIC16F15244 Curiosity Nan
 
 ## Setup
 1. Connect the PIC16f15244 Curiosity Nano board to a PC using the Micro-USB to USB 2.0 cable.
-2. If not already on your system, download and install MPLABX IDE version 5.40 (or newer).
-3. If not already on your system, download and install the XC8 C-Compiler version 2.20 (or newer).
+2. If not already on your system, download and install MPLABX IDE version 6.10 (or newer).
+3. If not already on your system, download and install the XC8 C-Compiler version 2.41 (or newer).
 4. Open the 'pic16f15244-eusart-example.X' project as shown in Figure 1.
 
   ###### Figure 1: Open Project Window
