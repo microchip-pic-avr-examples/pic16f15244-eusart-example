@@ -65,11 +65,6 @@ void PIN_MANAGER_Initialize(void)
     WPUB = 0x0;
     WPUC = 0x0;
   
-
-    /**
-    APFCONx registers
-    */
-
     /**
     ODx registers
     */
@@ -95,6 +90,10 @@ void PIN_MANAGER_Initialize(void)
     */
     RX1PPS = 0x11; //RC1->EUSART1:RX1;
     RC0PPS = 0x05;  //RC0->EUSART1:TX1;
+
+    /**
+    APFCON registers
+    */
 
    /**
     IOCx registers 

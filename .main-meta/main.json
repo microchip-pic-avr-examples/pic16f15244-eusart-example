@@ -10,17 +10,17 @@
         "shortDescription": "The 'pic16f15244-eusart-example' code example uses the PIC16F15244 Curiosity Nano Development board to demonstrate how to transmit \"Hello World!\" to a PC terminal application using the EUSART module.",
         "ide": {
             "name": "MPLAB X",
-            "semverRange": ">=6.05.0"
+            "semverRange": ">=6.15.0"
         },
         "compiler": [
 			{
 				"name": "XC8",
-				"semverRange": "^2.41.0"
+				"semverRange": "^2.45.0"
 			}
 		],
         "dfp": {
             "name": "PIC16F-DEV_DFP",
-            "semverRange": "^1.18.352"
+            "semverRange": "^1.20.366"
         },
         "configurator": {
             "name": "MCC",

@@ -95,7 +95,7 @@ void EUSART1_Initialize(void)
 {
     // Set the EUSART1 module to the options selected in the user interface.
 
-    //ABDEN disabled; WUE disabled; BRG16 16bit_generator; SCKP Non-Inverted; ABDOVF no_overflow; 
+    //ABDEN disabled; WUE disabled; BRG16 16bit_generator; SCKP Non-Inverted; 
     BAUD1CON = 0x48; 
     //ADDEN disabled; CREN enabled; SREN disabled; RX9 8-bit; SPEN enabled; 
     RC1STA = 0x90; 
